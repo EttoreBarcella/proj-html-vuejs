@@ -1,22 +1,23 @@
 <template>
-  <button class="button_main"></button>
+  <button class="button_consultation">Get a Consultation</button>
 </template>
 
 <script>
 export default {
-    name:'BaseButton',
+    name:'ButtonConsultation',
 }
 </script>
 
 <style>
-    .button_main{
+    .button_consultation{
         margin-top: 10px;
-        width: 90%;
+        width: 50%;
         background-color: #f76210;
         padding: 20px;
         border: none;
         border-radius: 10px;
         color: white;
         cursor: pointer;
+        font-size: 1rem;
     }
 </style>

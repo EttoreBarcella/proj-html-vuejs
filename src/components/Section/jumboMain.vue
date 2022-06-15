@@ -28,6 +28,7 @@ export default {
     height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 #container{
     display: flex;

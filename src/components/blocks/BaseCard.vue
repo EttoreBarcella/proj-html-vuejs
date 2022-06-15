@@ -12,7 +12,7 @@
             <input type="text" placeholder="Your Email*">
             <input type="text" placeholder="Your Phone Number*">
             <br>
-            <BaseButton/>
+            <ButtonCard/>
             <br>
             <small>By submitting my data i agree to be contacted</small>
         </div>
@@ -20,9 +20,9 @@
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue'
+import ButtonCard from './ButtonCard.vue'
 export default {
-    components:{BaseButton},
+    components:{ButtonCard},
     name:'BaseCard',
 }
 </script>
@@ -46,6 +46,11 @@ export default {
         }
         small{
             color: grey;
+        }
+        small:hover{
+            text-decoration: underline;
+            color: grey;
+            cursor: pointer;
         }
         a{
             text-decoration: none;

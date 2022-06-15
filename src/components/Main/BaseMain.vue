@@ -1,13 +1,17 @@
 <template>
- <JumboMain/>
+    <div>
+        <JumboMain/>
+        <ConsultationMain/>
+    </div>
 </template>
 
 <script>
 import JumboMain from '../Section/JumboMain.vue'
+import ConsultationMain from '../Section/ConsultationMain.vue'
 
 export default {
-    components:{JumboMain},
-    name:'BaseMain'
+    name:'BaseMain',
+    components:{JumboMain, ConsultationMain},
 }
 </script>
 

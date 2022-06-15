@@ -6,7 +6,7 @@
         <nav>
             <ul class="header_nav">
                 <li v-for="(link,index) in links" :key="index">
-                    <a :href="link.url">{{link.text}}<FontAwesomeIcon :icon="link.icon"/></a>
+                    <a :href="link.url">{{link.text}}</a>
                 </li>
             </ul> 
         </nav>
@@ -75,10 +75,10 @@ export default{
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
     a{
       color: #424242;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       text-decoration: none;
     }
     a:hover{
