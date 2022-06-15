@@ -10,6 +10,7 @@
                 </li>
             </ul> 
         </nav>
+        <button class="buttons_light">Free Quote</button>
     </header>
 </template>
 
@@ -83,6 +84,16 @@ export default{
       color: #f76210;
       text-decoration: underline;
     }
+  }
+  .buttons_light{
+    background-color: #ffe7da; 
+    color: #f76210;  
+    border: none;
+    border-radius: 10%;
+    padding: 0 35px;
+    margin-left: 25px;
+    font-weight: bold;
+    cursor: pointer;
   }
 }
 </style>
