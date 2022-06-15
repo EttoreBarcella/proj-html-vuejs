@@ -1,9 +1,12 @@
 <template>
- <h1>c</h1>
+ <JumboMain/>
 </template>
 
 <script>
+import JumboMain from '../Section/JumboMain.vue'
+
 export default {
+    components:{JumboMain},
     name:'BaseMain'
 }
 </script>

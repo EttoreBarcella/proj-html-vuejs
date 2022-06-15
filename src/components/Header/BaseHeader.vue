@@ -1,5 +1,5 @@
 <template>
-    <header class="container">
+    <header id="container">
         <div class="logo_box">
             <img class="logo_header" src="../../assets/Img/avada-marketing-logo.png" alt="asdas">
         </div>
@@ -64,8 +64,9 @@ export default{
 </script>
 
 <style lang="scss" scoped>
-.container{
+#container{
   display: flex;
+  padding-bottom: 20px;
   .logo_box{
     display: flex;
     align-items: center;
