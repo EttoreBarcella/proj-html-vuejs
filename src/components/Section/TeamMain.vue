@@ -50,6 +50,7 @@ export default {
 #container{
     max-width: 1500px;
     margin: auto;
+    margin-bottom: 150px;
     .team_title{
         text-align: center;
         h1{
