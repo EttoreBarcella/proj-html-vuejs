@@ -33,6 +33,7 @@ export default {
     border-radius: 10px;
     height: 80px;
     align-items: center;
+    margin-bottom: 200px;
     .card_image{
         margin-left: 90px;
         img{

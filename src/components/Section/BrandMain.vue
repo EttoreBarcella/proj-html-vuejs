@@ -41,7 +41,7 @@ export default {
     .brand_title{
         text-align: center;
         h1{
-            font-size: 3.5rem;
+            font-size: 3rem;
         }
     }
     .brand_list{
