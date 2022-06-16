@@ -32,8 +32,6 @@ export default {
         background-color: white;
         height: 600px;
         width: 450px;
-        margin-left: 200px;
-        margin-top: 70px;
         box-shadow: 0px 13px 23px -3px rgba(0,0,0,0.62);
         text-align: center;
         border-radius: 10px;

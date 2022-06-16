@@ -11,7 +11,7 @@ export default {
 <style>
     .button_consultation{
         margin-top: 10px;
-        width: 50%;
+        width: 40%;
         background-color: #f76210;
         padding: 20px;
         border: none;

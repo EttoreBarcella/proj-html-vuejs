@@ -7,7 +7,7 @@
             <button class="button_jumbo"> Our Services</button>
         </div>
         <div class="col_right">
-            <BaseCard/>
+            <BaseCard class="card"/>
         </div>
     </div>
   </section>
@@ -52,6 +52,15 @@ export default {
             border-radius: 10px;
             cursor:pointer;
         }
+        .button_jumbo:hover{
+            background-color: Transparent;
+            background-repeat:no-repeat;
+            border: 2px solid white;
+        }
+    }
+    .card{
+        margin-left: 200px;
+        margin-top: 70px;
     }
 }
 </style>
