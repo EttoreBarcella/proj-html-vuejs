@@ -26,6 +26,7 @@ export default {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
+    margin-bottom: 100px;
     .box_img{
         width: 50%;
         img{
@@ -36,7 +37,7 @@ export default {
         width: 50%;
         h2{
             margin-right: 100px;
-            font-size: 2rem;
+            font-size: 1.8rem;
             margin-top: 150px;
             margin-bottom: 10px;
         }

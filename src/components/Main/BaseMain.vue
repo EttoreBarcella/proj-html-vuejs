@@ -7,6 +7,7 @@
         <TeamMain/>
         <AboutMain/>
         <ReviewMain/>
+        <TipsMain/>
     </div>
 </template>
 
@@ -18,10 +19,11 @@ import CardMarketing from '../Section/CardMarketing.vue'
 import TeamMain from '../Section/TeamMain.vue'
 import AboutMain from '../Section/AboutMain.vue'
 import ReviewMain from '../Section/ReviewMain.vue'
+import TipsMain from '../Section/TipsMain.vue'
 
 export default {
     name:'BaseMain',
-    components:{JumboMain, ConsultationMain, BrandMain, CardMarketing, TeamMain,AboutMain,ReviewMain,},
+    components:{JumboMain, ConsultationMain, BrandMain, CardMarketing, TeamMain,AboutMain,ReviewMain,TipsMain},
 }
 </script>
 
