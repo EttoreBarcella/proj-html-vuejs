@@ -22,6 +22,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+div{
+  font-family: 'Roboto', sans-serif;
+}
 @import './assets/Style/global.scss'
 
 </style>
